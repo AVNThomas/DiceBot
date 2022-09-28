@@ -1,0 +1,27 @@
+{
+  "name": "dicebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVNThomas/DiceBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVNThomas/DiceBot/issues"
+  },
+  "homepage": "https://github.com/AVNThomas/DiceBot#readme",
+  "dependencies": {
+    "@replit/database": "^2.0.2",
+    "axios": "^0.27.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^16.0.2",
+    "env": "^0.0.2",
+    "fs": "^0.0.1-security"
+  }
+}
