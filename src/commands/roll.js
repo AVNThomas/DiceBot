@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
             add[i] = Math.floor(Math.random() * dice[1]) + 1;
             result += add[i];
         }
-        message.channel.send("Lancer de " + dice[0] + " dés à " + dice[1] + " faces [ " + add + ' ] Le résultat est: ' + result);
+        message.channel.send("Lancé de " + dice[0] + " dés à " + dice[1] + " faces [ " + add + ' ] Le résultat est: ' + result);
     } else {
         console.log(Math.random());
         roll = Math.floor(Math.random() * args[0]) + 1;
